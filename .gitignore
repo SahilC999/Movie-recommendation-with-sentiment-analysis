@@ -1,20 +1,30 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / cache / virtual environments
 __pycache__/
 *.py[cod]
+*.pyo
 *.pkl
+
+# Virtual environment (if you create one later)
+venv/
+ENV/
+.env/
+
+# Dataset files (CSV, TXT)
+*.csv
+*.txt
+datasets/
 
 # Logs
 *.log
 
-# CSV or other large data
-*.csv
+# System files
+.DS_Store
+Thumbs.db
 
-# Environment
-.env
-venv/
-.env/
-
-# VS Code / PyCharm / OS files
+# IDE files
 .vscode/
 .idea/
-.DS_Store
+
+# Ignore compiled files or temporary files
+*.swp
+*.swo
