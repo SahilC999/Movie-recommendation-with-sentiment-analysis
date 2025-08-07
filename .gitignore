@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Logs
+*.log
+
+# CSV or other large data
+*.csv
+
+# Environment
+.env
+venv/
+.env/
+
+# VS Code / PyCharm / OS files
+.vscode/
+.idea/
+.DS_Store
